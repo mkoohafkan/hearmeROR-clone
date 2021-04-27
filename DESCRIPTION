@@ -1,0 +1,28 @@
+Package: hearmeROR
+Title: Automated alerts for the Roaring River Distribution System
+Version: 0.5-0
+Authors@R: 
+    person(given = "Michael",
+           family = "Koohafkan",
+           role = c("aut", "cre"),
+           email = "Michael.Koohafkan@gmail.com")
+Imports:
+    base64enc (>= 0.1),
+    rlang (>= 0.3),
+    curl (>= 4.3),
+    emayili (>= 0.4),
+    readr (>= 1.3),
+    dplyr (>= 0.8),
+    stringr (>= 1.4),
+    lubridate (>= 1.7),
+    ggplot2 (>= 3.3),
+    glue (>= 1.3),
+    yaml (>= 2.2),
+    cder (>= 0.2-2)
+Description: Send automated alerts when
+    RRDS stages exceed a specified threshold.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Roxygen: list(markdown = TRUE)

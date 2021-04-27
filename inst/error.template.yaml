@@ -1,0 +1,15 @@
+Host: mailhost.somewhere.com
+
+Sender: RoaringRiver@somewhere.com
+
+Recipients:
+ - someone@somewhere.com
+
+PhoneRecipients:
+ - 1112223333@phone.company
+
+Subject: "RRDS Automated Warning System: System Error"
+
+Body: > 
+  The RRDS automated warning system has failed {tries}
+  times in a row.

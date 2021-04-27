@@ -1,0 +1,15 @@
+Host: mailhost.somewhere.com
+
+Sender: RoaringRiver@somewhere.com
+
+Recipients:
+ - someone@somewhere.com
+
+PhoneRecipients:
+ - 1112223333@phone.company
+
+Subject: "RRDS Automated Warning: {Station} stage at {Stage} ft NAVD88 as of {Datetime}"
+
+Body: > 
+  ALERT: The RRDS stage at {Station} was at {Stage} ft NAVD88 as of {Datetime}. 
+  The threshold for emergency response is {Threshold} ft NAVD88.

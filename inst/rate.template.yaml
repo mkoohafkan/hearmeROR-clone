@@ -1,0 +1,16 @@
+Host: mailhost.somewhere.com
+
+Sender: RoaringRiver@somewhere.com
+
+Recipients:
+ - someone@somewhere.com
+
+PhoneRecipients:
+ - 1112223333@phone.company
+
+Subject: "RRDS Automated Warning: {Station} stage increased from {Stage[1]} to {Stage[2]} between {Datetime[1]} and {Datetime[2]}"
+
+Body: > 
+  ALERT: The stage at {Station} increased from {Stage[1]} to {Stage[2]} between
+  {Datetime[1]} and {Datetime[2]}. This rate exceeds the rate threshold of 
+  {Threshold[1]} ft/s.
