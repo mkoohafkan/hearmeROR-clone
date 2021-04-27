@@ -9,4 +9,4 @@ California Department of Water Resources. Sensitive information and
 development history have been removed but I have kept the underlying
 infrastructure as a learning tool/reference/example. This package will
 function provided you update the mail host and recipient information
-in the [templates](inst/templates).
+in the [templates](inst/).
